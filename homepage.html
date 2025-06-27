@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>AI 드래그 사전</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif;
+      background-color: #fefefe;
+      color: #333;
+    }
+
+    /* Header */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #000;
+      color: white;
+      padding: 20px 40px;
+    }
+
+    #logo {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    nav#menus ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav#menus li {
+      font-size: 16px;
+    }
+
+    /* Main Section */
+    main {
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    main h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    main p {
+      font-size: 18px;
+      margin-bottom: 40px;
+      color: #666;
+    }
+
+    .icon-list {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .icon-item {
+      text-align: center;
+      font-size: 18px;
+      background-color: #f2f2f2;
+      padding: 40px;
+      border-radius: 10px;
+      width: 200px;
+      height: 120px;
+      box-sizing: border-box;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #000;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      margin-top: 80px;
+    }
+
+    .clear {
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div id="logo">AI 드래그 사전</div>
+    <nav id="menus">
+      <ul>
+        <li>소개</li>
+        <li>사용법</li>
+        <li>로그인</li>
+        <li>문의</li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Section -->
+  <main>
+    <h1>AI 드래그 사전 기능</h1>
+    <p>단어나 문장을 드래그하거나 단축키를 통해서 의미를 바로 알 수 있는, 정확하진 않지만 노력은 하는 AI 프로그램!</p>
+
+    <!-- 크기 키운 기능 박스 -->
+    <div class="icon-list">
+      <div class="icon-item">용어<br>설명</div>
+      <div class="icon-item">빠른<br>번역</div>
+      <div class="icon-item">간단<br>요약</div>
+    </div>
+  </main>
+
+  <div class="clear"></div>
+
+  <!-- Footer -->
+  <footer>
+    제작자: 강부희 | 이메일: 10pluseight@google.com
+  </footer>
+
+</body>
+</html>
